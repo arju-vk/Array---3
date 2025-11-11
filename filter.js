@@ -1,4 +1,4 @@
-let numbers = [10, 45, 783, 8309, 758, 52, 94, 60, 43, 89];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //collect all even numbers into a new array
 
 let even_numbers = [];
@@ -10,7 +10,7 @@ for (let num of numbers) {
 console.log(numbers);
 console.log(even_numbers);
 
-let numbers1 = [10, 45, 783, 8309, 758, 52, 94, 60, 43, 89];
+let numbers1 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 //collect all even numbers into a new array
 
 let even_numbers1 = numbers.filter((num) => num % 2 === 0);
@@ -18,7 +18,7 @@ let even_numbers1 = numbers.filter((num) => num % 2 === 0);
 console.log(numbers);
 console.log(even_numbers);
 
-let numbers2 = [10, 45, 783, 8309, 758, 52, 94, 60, 43, 89];
+let numbers2 = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
 //collect all even numbers into a new array
 
 let enames = [
